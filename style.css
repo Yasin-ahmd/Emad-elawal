@@ -1,0 +1,111 @@
+
+    body{
+        margin: 0;
+        font-family: "Rubik", serif;
+        background-color: #CBDCEB;
+      
+    
+    }
+    .headtext{
+        background-color: #1659CC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        font-family: "Rubik", serif;
+
+    }
+
+    .headlinks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .headlinks a{
+        font-size: 20px;
+        padding: 0 15px;
+text-decoration: none;
+color: #ffffff;
+font-family: "cairo", serif;
+
+
+    }
+
+    .headlinks button:hover{
+        background-color: #0E377F;
+
+
+
+    }
+
+
+
+    .headlinks button{
+        background-color: #679FFF;
+        color:white;
+        border: none;
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+     
+  
+   
+    .mainhtext{
+padding-right: 3%;
+font-family: "Rubik", serif;
+font-size: xx-large;
+
+
+    }
+
+    .maintext{
+font-family: "Rubik", serif;
+padding-right: 3%;
+
+font-size: large;
+line-height: 1.5;
+
+    }
+
+    .video{
+    padding-right: 2%;
+    padding-left: 2%;
+
+  
+   }
+
+   .video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .video-container {
+      max-width: 1000px; 
+    }
+  
+}
+    @media (max-width: 700px) {
+        .headtext {
+            flex-direction: column;
+            text-align: center;
+        }
+        .headlinks {
+            justify-content: center;
+        }
+    }
+    

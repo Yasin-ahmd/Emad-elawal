@@ -1,0 +1,79 @@
+
+body{
+margin: 0px;
+font-family: "Rubik", serif;
+background-color: #CBDCEB;
+
+}
+       
+.headtextfees{
+    
+background-color: #1659CC;
+justify-content: space-between;
+align-items: center;
+display: flex;
+padding: 20px;
+font-family: "Rubik", serif;
+
+    
+}
+.headlinks{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.headlinks a{
+    font-size: 20px;
+    padding: 0 15px;
+text-decoration: none;
+color: #ffffff;
+font-family: "cairo", serif;
+
+
+}
+
+.headlinks button:hover{
+    background-color: #0E377F;
+
+
+
+}
+
+.headlinks button{
+    background-color: #679FFF;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.text{
+
+align-items:center ;
+font-size: 24px;
+}
+
+.feesh{
+font-family: "Rubik", serif;
+padding-right: 3%;
+font-size: x-large;
+
+}
+.fees{
+font-family: "Rubik", serif;
+padding-right: 3%;
+font-size: large;
+
+}
+
+
+@media (max-width: 700px) {
+    .headtextfees {
+        flex-direction: column;
+        text-align: center;
+    }
+    .headlinks {
+        justify-content: center;
+    }
+}
